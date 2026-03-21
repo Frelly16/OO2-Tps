@@ -13,7 +13,7 @@ public class PagoTest {
         pedido.agregarItem(new MenuItem("Coca", 5000, TipoItem.BEBIDA));
         pedido.agregarItem(new MenuItem("Pizza", 15000, TipoItem.PLATO));
 
-        Tarjeta visa = new Tarjeta(TipoTarjeta.VISA);
+        Tarjeta visa = new Visa();
         Pago pago = new Pago(pedido, visa, Propina.CINCO);
 
         double total = pago.calcularTotal();
@@ -26,7 +26,7 @@ public class PagoTest {
         pedido.agregarItem(new MenuItem("Coca", 5000, TipoItem.BEBIDA));
         pedido.agregarItem(new MenuItem("Pizza", 15000, TipoItem.PLATO));
 
-        Tarjeta masterCard = new Tarjeta(TipoTarjeta.MASTERCARD);
+        Tarjeta masterCard = new Mastercard();
         Pago pago = new Pago(pedido, masterCard, Propina.DOS);
 
         double total = pago.calcularTotal();
@@ -39,7 +39,7 @@ public class PagoTest {
         pedido.agregarItem(new MenuItem("Coca", 5000, TipoItem.BEBIDA));
         pedido.agregarItem(new MenuItem("Pizza", 15000, TipoItem.PLATO));
 
-        Tarjeta comarcaPlus = new Tarjeta(TipoTarjeta.COMARCA_PLUS);
+        Tarjeta comarcaPlus = new ComarcaPlus();
         Pago pago = new Pago(pedido, comarcaPlus, Propina.TRES);
 
         double total = pago.calcularTotal();
@@ -51,7 +51,7 @@ public class PagoTest {
         Pedido pedido = new Pedido();
         pedido.agregarItem(new MenuItem("Pizza", 15000, TipoItem.PLATO));
 
-        Tarjeta otra = new Tarjeta(TipoTarjeta.OTRA);
+        Tarjeta otra = new SinDescuento();
         Pago pago = new Pago(pedido, otra, Propina.DOS);
 
         double total = pago.calcularTotal();
