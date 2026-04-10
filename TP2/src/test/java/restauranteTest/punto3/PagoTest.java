@@ -1,4 +1,4 @@
-package restauranteTest;
+package restauranteTest.punto3;
 
 import org.junit.jupiter.api.Test;
 import punto2.restaurante.*;

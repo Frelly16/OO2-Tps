@@ -1,4 +1,4 @@
-package restauranteTest;
+package restauranteTest.punto3;
 
 import punto2.restaurante.RestauranteLogger;
 

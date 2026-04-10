@@ -1,4 +1,4 @@
-package concursoTest;
+package concursoTest.punto3;
 
 import punto1.concurso.Inscripcion;
 import punto1.concurso.Participante;
