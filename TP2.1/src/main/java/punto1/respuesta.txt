@@ -1,0 +1,20 @@
+La clase AprendiendoLambdas dispone de 4 métodos con 4 interfaces distintas.
+
+a.unMetodo((b) -> {System.out.prinln("abcd" + b);});
+este metodo invoca a la interface B, recibe un parámetro b el cual el compilador asume que es de tipo String y no retorna nada.
+
+a.unMetodo(() → System.out.println("abcd"));
+invoca la interface A. La lambda no recibe ningún parámetro y no hay nada para retornar.
+
+a.unMetodo((variable) → {System.out.println("abcd");});
+este metodo también invoca la interface B, recibe un parámetro de nombre variable y no retorna nada.
+
+a.unMetodo((variable) → {System.out.println("abcd"); return true;})
+invoca la interface C. La lambda recibe un parámetro llamado variable y retorna un booleano.
+
+a.unMetodo((Long variable) -> {
+System.out.println("abcd");
+return 10L;
+});
+Por ultimo invoca a la interface D<T,R>
+En el parámetro que se envia a la lambda se declara un Long variable y retorna un Long.
