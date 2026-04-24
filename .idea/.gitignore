@@ -12,9 +12,10 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-target/
-build/
-out/
+/target/
+/build/
+/classes/
+/out/
 *.class
 *.jar
 *.war

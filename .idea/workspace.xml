@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda0ffed-2533-4cd7-8070-c393e853fc85" name="Changes" comment="entrega final">
-      <change afterPath="$PROJECT_DIR$/TP3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/ComarcaPlus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Mastercard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/MenuItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Mesa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Pago.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Pedido.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Propina.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/SinDescuento.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Tarjeta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/TipoItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/TipoTarjeta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/restaurante/Visa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/test/MesaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/test/PagoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2/test/PedidoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TP1/Concurso/Inscripcion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TP1/Concurso/Participante.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TP1/test/InscripcionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
