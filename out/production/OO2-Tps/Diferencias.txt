@@ -1,5 +1,0 @@
-La forma anémica de esta actividad hace que la clase Tiempo sea inútil, al igual que el autor del artículo criticaba, se forma un antipatrón, la clase Tiempo sólo sabe setear y devolver el dato de un parámetro.
- De esta forma la clase Main termina realizando toda la lógica y cálculo, lo cual no es ideal.
-
-La forma no anémica conlleva a hacer lo contrario: Que la clase Tiempo actúa como servicio y le brinde la información que necesita la clase Main.
- Esto cumple con la verdadera regla de POO, que es combinar los datos y el comportamiento en un mismo lugar, de este modo el objeto Tiempo sabe calcular el día y hora en el momento y en qué formato se prefiere. Lo bueno de esto es que si a futuro se necesita modificar algún comportamiento, sólo se verá afectada la clase Tiempo y no la Main, puesto a que esta sólo llama a los procesos ya preestablecidos de la clase, no del comportamiento.
