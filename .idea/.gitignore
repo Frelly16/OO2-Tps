@@ -1,6 +1,10 @@
 # Default ignored files
-/shelf/
-/workspace.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf/
+.idea/compiler.xml
 # Ignored default folder with query files
 /queries/
 # Datasource local storage ignored files
@@ -8,8 +12,12 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-/target/
+target/
+build/
+out/
 *.class
 *.jar
 *.war
 *.ear
+.DS_Store
+Thumbs.db
