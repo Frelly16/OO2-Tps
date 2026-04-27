@@ -1,7 +1,5 @@
 package ejercicio5;
 
-import java.util.List;
-
 public class Calculador {
 
     public String reporte(Factura factura) {
