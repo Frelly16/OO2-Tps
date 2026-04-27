@@ -10,4 +10,14 @@ public abstract class Actuacion {
     }
 
     public abstract float calcularMonto();
+
+    public String nombreEvento() {
+        return this.nombreEvento;
+    }
+    public int numeroEspectadores() {
+        return this.numeroEspectadores;
+    }
+    public float calcularCredito() {
+        return (float) Math.max(this.numeroEspectadores() - 30, 0);
+    }
 }

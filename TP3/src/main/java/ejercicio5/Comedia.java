@@ -14,4 +14,9 @@ public class Comedia extends Actuacion {
         monto += 300 * this.numeroEspectadores;
         return monto;
     }
+    @Override
+    public float calcularCredito() {
+        float creditos = super.calcularCredito();
+        return creditos + (float) Math.floor(this.numeroEspectadores() / 5);
+    }
 }
