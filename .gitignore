@@ -1,7 +1,7 @@
 # ==========================================
 # Archivos compilados (Maven e IntelliJ)
 # ==========================================
-target/
+target/workspace.xml
 out/
 *.class
 

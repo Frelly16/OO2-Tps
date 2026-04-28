@@ -14,5 +14,8 @@
         <module name="TP2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TP4" target="25" />
+    </bytecodeTargetLevel>
   </component>
 </project>
