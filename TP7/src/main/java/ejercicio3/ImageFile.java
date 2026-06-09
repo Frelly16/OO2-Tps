@@ -9,8 +9,9 @@ import java.io.IOException;
 public class ImageFile implements Imagen {
     private final BufferedImage imagen;
 
-    public ImageFile(String imagen) {
-        this.imagen = imagen;
+    public ImageFile(String path) {
+        this.imagen = load(path);
+        System.out.println("LOG: Imagen cargada desde el disco (" + path + ")");
     }
 
     @Override
