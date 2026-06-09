@@ -3,8 +3,8 @@ package ejercicio3;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 
 public class ImageFile implements Imagen {
     private final BufferedImage imagen;
@@ -21,8 +21,11 @@ public class ImageFile implements Imagen {
         JOptionPane.showMessageDialog(null, label);
     }
     private BufferedImage load(String path) {
-        try {
-            return ImageIO.read(new File(path));
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(path)){
+            if (inputStream == null){
+                throw new IOException("No se encontró el archivo en los recursos del proyecto: " + path);
+            }
+            return ImageIO.read(inputStream);
         } catch (IOException e) {
             throw new RuntimeException("Error al cargar la imagen en la ruta: " + path, e);
         }
